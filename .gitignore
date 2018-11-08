@@ -1,0 +1,2 @@
+#Ignora los archivos .pyc generados en la compilación del proyecto
+*.pyc
