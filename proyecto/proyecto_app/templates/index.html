@@ -1,0 +1,19 @@
+{%extends 'rpc_client.html'%} <!-- Carga al index el documento calculadora.html -->
+<!-- Se inserta código a un bloque del documento -->
+
+
+{%block bodyblock%}
+<p><br>
+  <br>
+</p>
+<form  method="post">
+  {% csrf_token %}
+  <div> <input id="p1" name="a" type="text"> <input id="p2" name="b"
+      type="text"> </div>
+  <div class="button"> <button type="submit">Suma</button> </div>
+</form>
+<h2>{{resulta}}</h2>
+<p><br>
+  <br>
+</p>
+{%endblock%}

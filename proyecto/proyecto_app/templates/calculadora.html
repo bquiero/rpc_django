@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>calculadora</title>
+  </head>
+  <body>
+    <h1 style=" text-align: center;">Bienvenidos</h1>
+    <h2 style=" text-align: center;">Calculadora web RPC</h2>
+    <p>{%block contenido%}{%endblock%}<br>
+    </p>
+    <table style="margin: 0 auto;" border="1">
+      <tbody>
+        <tr>
+          <td>{%block ta1%}{%endblock%}<br>
+          </td>
+          <td>{%block ta2%}{%endblock%}<br>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <p style="text-align: center;"><br>
+    </p>
+    <p style="text-align: center;"><button name="Suma" onclick="rpcAdd(2,4)">Suma</button></p>
+    <p style="text-align: center;"><button>Factorial</button></p>
+    <p style="text-align: center;"><button>Potencia</button></p>
+    <p style="text-align: center;"><button>Área<var></var></button></p>
+    <p id="respuesta" style="text-align: center;">{%block rpcAddCall%}{%endblock%}<br>
+    </p>
+    <script>
+      function rpcAdd(a,b){
+        
+         document.getElementById("respuesta").innerHTML=<a href="{% url 'rpcAdd' 1 2%}">RPCAdd conextion</a>	
+        //document.getElementById("respuesta").innerHTML = parseInt(document.getElementById("p1").value);
+        
+      }
+    </script>
+    
+  </body>
+</html>
