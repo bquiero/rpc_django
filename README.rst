@@ -49,9 +49,9 @@ Como construir el proyecto
 
 Para cargar y probar el proyecto abra una terminal en un directorio de trabajo
 
-#.  Clone el proyecto desde github escribiendo en la terminal::
+#. Clone el proyecto desde github escribiendo en la terminal::
 
-   git clone http://proyecthttps://github.com/bquiero/rpc_django.git
+    git clone https://github.com/bquiero/rpc_django.git
 
 #. Cambie de directorio a la carpeta del proyecto::
 
