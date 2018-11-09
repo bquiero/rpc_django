@@ -35,11 +35,11 @@ Para instalar los pre-requisitos siga los siguientes pasos
 
   sudo apt-get install python3
 
-#. Instale virtualenv para esto utilice::
+#.  Instale virtualenv para esto utilice::
 
   sudo apt-get install python-virtualenv
 
-#. Si se ecuentra en un entorno windows utilice pip::
+#.  Si se ecuentra en un entorno windows utilice pip::
 
   pip install virtualenv
 
@@ -49,30 +49,30 @@ Como construir el proyecto
 
 Para cargar y probar el proyecto abra una terminal en un directorio de trabajo
 
-#. Clone el proyecto desde github escribiendo en la terminal::
+#.  Clone el proyecto desde github escribiendo en la terminal::
 
   git clone http://proyecthttps://github.com/bquiero/rpc_django.git
 
-#. Cambie de directorio a la carpeta del proyecto::
+#.  Cambie de directorio a la carpeta del proyecto::
 
   cd env_proyecto
 
-#. Active el entorno virtual utilizando el comando::
+#.  Active el entorno virtual utilizando el comando::
 
   source bin/activate
 
-#. Cambie al directorio del proyecto::
+#.  Cambie al directorio del proyecto::
 
   cd proyecto
 
-#. Ejecute el servidor::
+#.  Ejecute el servidor::
 
   python3 manage.py runserver
 
-#. Si todo sale bien hasta este punto ingrese a::
+#.  Si todo sale bien hasta este punto ingrese a::
 
   http://127.0.0.1:8000/calculadora/
 
-#. Para desactiar el entorno virtual cierre la terminal o escriba
+#.  Para desactivar el entorno virtual cierre la terminal o escriba
 
   deactivate
