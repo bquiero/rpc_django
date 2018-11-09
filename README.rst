@@ -35,11 +35,11 @@ Para instalar los pre-requisitos siga los siguientes pasos
 
   sudo apt-get install python3
 
-#.  Instale virtualenv para esto utilice::
+#.   Instale virtualenv para esto utilice::
 
   sudo apt-get install python-virtualenv
 
-#.  Si se ecuentra en un entorno windows utilice pip::
+#.    Si se ecuentra en un entorno windows utilice pip::
 
   pip install virtualenv
 
